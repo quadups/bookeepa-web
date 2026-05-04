@@ -307,11 +307,13 @@
 
 .mailIcon {
   position: absolute;
+  top: 50%;
   left: 22px;
   width: 18px;
   height: 13px;
   border: 2px solid #9ba4b5;
   border-radius: 4px;
+  transform: translateY(-50%);
 }
 
 .mailIcon::before,
@@ -1766,7 +1768,8 @@
     width: 100%;
   }
 
-  .accessForm {
+  .accessForm,
+  .footerForm {
     height: auto;
     display: grid;
     grid-template-columns: 1fr;
@@ -1778,7 +1781,8 @@
     box-shadow: none;
   }
 
-  .accessForm input {
+  .accessForm input,
+  .footerForm input {
     height: 52px;
     border: 1px solid #dfe4ee;
     border-radius: 999px;
@@ -1786,13 +1790,16 @@
     box-shadow: 0 10px 24px rgba(24, 31, 50, 0.06);
   }
 
-  .accessForm button {
+  .accessForm button,
+  .footerForm button {
     width: 100%;
+    min-width: 0;
     height: 52px;
   }
 
-  .accessForm .mailIcon {
-    top: 19px;
+  .accessForm .mailIcon,
+  .footerForm .mailIcon {
+    top: 26px;
   }
 
   .phoneStage {
@@ -2034,6 +2041,11 @@
     gap: 34px;
     border-radius: 26px;
     padding: 34px 22px 28px;
+  }
+
+  .footerLead p {
+    max-width: 100%;
+    margin-bottom: 24px;
   }
 
   .faqSection {
