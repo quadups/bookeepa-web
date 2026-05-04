@@ -32,7 +32,7 @@ export default function Image() {
               clipPath: "polygon(34% 0, 100% 0, 66% 100%, 0 100%)",
             }}
           />
-          <div style={{ fontFamily: "Arial", fontSize: 34, fontWeight: 700 }}>
+          <div style={{ fontFamily: "Georgia", fontSize: 34, fontWeight: 500 }}>
             Bookeepa
           </div>
         </div>
@@ -43,7 +43,7 @@ export default function Image() {
           <div
             style={{
               marginTop: 34,
-              fontFamily: "Arial",
+              fontFamily: "Georgia",
               fontSize: 28,
               color: "#516071",
               maxWidth: 760,
@@ -56,7 +56,7 @@ export default function Image() {
         </div>
         <div
           style={{
-            fontFamily: "Arial",
+            fontFamily: "Georgia",
             fontSize: 24,
             color: "#3438f4",
           }}

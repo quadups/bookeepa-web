@@ -14,19 +14,19 @@ const debtRows = [
 const featureCards = [
   {
     eyebrow: "10-second capture",
-    title: "Record income; a piece of cake!",
+    title: "Record sales before they slip.",
     footer: "Income logged",
     stat: "NGN 18,500",
   },
   {
     eyebrow: "Debt clarity",
-    title: "Access transaction detail in a second",
+    title: "See unpaid balances at a glance.",
     footer: "Outstanding",
     stat: "NGN 134,400",
   },
   {
     eyebrow: "Manual MVP",
-    title: "Send reminders before balances go cold.",
+    title: "Send a reminder in one tap.",
     footer: "Reminder ready",
     stat: "WhatsApp",
   },
