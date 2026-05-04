@@ -20,7 +20,7 @@ export default function Image() {
           background: "#f6f7fb",
           color: "#0b0d12",
           padding: 72,
-          fontFamily: "Georgia",
+          fontFamily: "Geist, Arial, sans-serif",
         }}
       >
         <div style={{ display: "flex", alignItems: "center", gap: 18 }}>
@@ -32,7 +32,7 @@ export default function Image() {
               clipPath: "polygon(34% 0, 100% 0, 66% 100%, 0 100%)",
             }}
           />
-          <div style={{ fontFamily: "Georgia", fontSize: 34, fontWeight: 500 }}>
+          <div style={{ fontFamily: "Geist, Arial, sans-serif", fontSize: 34, fontWeight: 650 }}>
             Bookeepa
           </div>
         </div>
@@ -43,7 +43,7 @@ export default function Image() {
           <div
             style={{
               marginTop: 34,
-              fontFamily: "Georgia",
+              fontFamily: "Geist, Arial, sans-serif",
               fontSize: 28,
               color: "#516071",
               maxWidth: 760,
@@ -56,7 +56,7 @@ export default function Image() {
         </div>
         <div
           style={{
-            fontFamily: "Georgia",
+            fontFamily: "Geist, Arial, sans-serif",
             fontSize: 24,
             color: "#3438f4",
           }}

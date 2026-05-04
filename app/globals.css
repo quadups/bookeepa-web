@@ -10,23 +10,24 @@
   --muted: #667085;
   --surface: #ffffff;
   --line: #e6e9f0;
-  --font-caslon:
-    "Big Caslon", "Adobe Caslon Pro", "Libre Caslon Text", Caslon, Georgia,
-    "Times New Roman", serif;
-  --default-font-family: var(--font-caslon);
+  --font-geist:
+    var(--font-geist-sans, "Geist"), "Inter", "Helvetica Neue", Arial,
+    sans-serif;
+  --default-font-family: var(--font-geist);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-caslon);
-  --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  --font-sans: var(--font-geist);
+  --font-mono: var(--font-geist-mono, "Geist Mono"), "SFMono-Regular", Consolas,
+    "Liberation Mono", monospace;
 }
 
 html {
   scroll-behavior: smooth;
   background: var(--background);
-  font-family: var(--font-caslon);
+  font-family: var(--font-geist);
 }
 
 * {
@@ -41,7 +42,7 @@ body {
     linear-gradient(180deg, #f8f9fd 0%, #f1f4fa 48%, #f7f8fb 100%),
     var(--background);
   color: var(--foreground);
-  font-family: var(--font-caslon);
+  font-family: var(--font-geist);
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
@@ -57,7 +58,7 @@ textarea,
 select,
 a {
   font: inherit;
-  font-family: var(--font-caslon);
+  font-family: var(--font-geist);
 }
 
 button {
